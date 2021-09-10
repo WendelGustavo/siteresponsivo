@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>CineArt</title>
+
+</head>
+<body>
+    <header class="flex-container">
+        <div id="logo"><img src="./imagens/logo.png"/></div>
+        <div id="ident"> <h1> CineArt </h1></div>
+       <nav>
+           <ul >
+               <li><a href="#filmes">Filmes em cartaz</a></li>
+               <li><a href="#promo">Promoções</a></li>
+               <li><a href="#sobre">Sobre</a></li>
+
+           </ul>
+       </nav>
+        <div id="icon-menu"><img src="./imagens/menu.png" /></div>
+    </header>
+        <main>
+            <h2>Filmes em cartaz</h2>
+            <section id="filmes" class="flex-container">
+                <div id="box"><img src="./imagens/filme 4.jpg">
+                    <span id="isso">Black Adam</span>
+                </div>
+                <div id="box"><img src="./imagens/foilme3.jpg">
+                    <span id="isso">G.I. Joe: Olhos de Cobra</span>
+                </div>
+                <div id="box"><img src="./imagens/filme 2.jpg">
+                    <span id="isso">Uma Noite de Crime 5: A Fronteira</span>
+                </div>
+                <div id="box"><img src="./imagens/filme1.jpg">
+                    <span id="isso">The Matrix 4</span>
+                </div>
+            </section>
+            <div><h3>Promoções</h3></div>
+            <section id="promo" class="flex-container">
+                <div id="box"><img src="./imagens/promo.jpeg">
+                </div>
+                <div id="box"><img src="./imagens/promo1.jpeg">
+                </div>
+                <div id="box"><img src="./imagens/promo2.jpeg">
+                    <span id="isso"></span>
+                </div>
+                <div id="box"><img src="./imagens/promo3.jpeg">
+                    <span id="isso"></span>
+                </div>
+        </main>
+        <footer class="flex-container">
+            <div id="sobre"><img src="./imagens/WhatsApp Image 2021-09-10 at 00.46.02.jpeg" alt="">
+            </div>
+        </footer>
+
+
+        
+    </body>
+    <script>
+        let nav=document.querySelector("nav");
+        nav.style.display="none";
+        let icon=document.querySelector("#icon-menu")
+        icon.onclick=function(){
+            if(nav.style.display=="none")
+                nav.style.display="block"
+            else
+                nav.style.display="none"
+        }
+    </script>
+</html>

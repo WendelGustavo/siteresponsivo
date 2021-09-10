@@ -1,0 +1,398 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.flex-container{
+    display:flex;
+}
+header{
+    display:flex;
+    justify-content:space-around;
+    background-color: rgb(0, 0, 0);
+}
+nav{
+    position: absolute;
+    margin-top: 13vh;
+    width: 100vw;
+    background-color: rgb(54, 54, 54);
+}
+        
+ nav ul{
+    list-style: none;
+}
+nav ul li{
+    padding: 1vh 0 1vh 0;
+    border-bottom: 1px solid black;
+}
+        
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+    margin-left: 3vw;
+}
+
+header #logo{
+    width:20vw;
+}
+header #logo img{
+    width:100%;
+}
+
+header #ident{
+    width:50vw;
+}
+header #ident h1{
+    font-size: 2vh;
+    text-align:center;
+    padding-top:3vh;
+    font-size: 2.56vh;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+  
+}
+header #icon-menu{
+    width:20vw;
+}
+header #icon-menu img{
+    width:100%;
+}
+body{
+    background-color: rgb(54, 54, 54);
+}
+main {   
+    color:#ffffff;
+    text-align:center;
+    font-family: Arial;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+#box {
+	width: 40vw;
+    margin: 2%;
+}
+#box img{
+    width: 100%;
+    border-radius: 10%;
+}
+#isso{
+    text-align: left;
+}
+#filmes{
+    padding-left: 2vh;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#filmes div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+main h3{
+    text-align: left;
+    margin-left: 3vh;
+    padding-top: 120vw;
+}
+#promo{
+    padding-left: 2vh;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container{
+    display:flex;
+}
+#promo div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+footer{
+
+    display:flex;
+    justify-content:space-around;
+    background-color: black;
+}
+footer #sobre{
+    padding-top: 10px;
+    width:30vw;
+    padding-bottom: 10vw;
+}
+footer #sobre img{
+    width:100%;
+}
+@media only screen and (min-width: 980px){
+    .flex-container{
+        display:flex;
+    }
+    header{
+        display:flex;
+        justify-content:space-around;
+        background-color: rgb(0, 0, 0);
+    }
+    nav{
+        position: absolute;
+        margin-top: 21vh;
+        width: 100vw;
+        background-color: rgb(54, 54, 54);
+    }
+            
+     nav ul{
+        list-style: none;
+    }
+    nav ul li{
+        padding: 1vh 0 1vh 0;
+        border-bottom: 1px solid black;
+    }
+            
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 2vh;
+        margin-left: 3vw;
+    }
+    
+    header #logo{
+        width:8vw;
+    }
+    header #logo img{
+        width:100%;
+    }
+    
+    header #ident{
+        width:50vw;
+    }
+    header #ident h1{
+        font-size: 2vh;
+        text-align:left;
+        padding-top:3vh;
+        font-size: 4vh;
+        color: rgb(255, 255, 255);
+        font-family: Arial;
+      
+    }
+    header #icon-menu{
+        width:10vw;
+    }
+    header #icon-menu img{
+        width:100%;
+    }
+    body{
+        background-color: rgb(54, 54, 54);
+    }
+    main {   
+        color:#ffffff;
+        text-align:center;
+        font-family: Arial;
+        padding-top: 10vh;
+        font-size: 35px;
+    }
+    
+    #box {
+        width: 20vw;
+        height: 50vh;
+    }
+    #box img{
+        width: 100%;
+        border-radius: 10%;
+    }
+    #filmes{
+        padding-left: 2vh;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #filmes div{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    
+    }
+    main h3{
+        text-align: left;
+        margin-left: 3vh;
+        padding-top: 30vw;
+    }
+    #promo{
+        padding-left: 2vh;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex-container{
+        display:flex;
+    }
+    #promo div{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    footer{
+        display:flex;
+        justify-content:space-around;
+        background-color: black;
+    }
+    footer #sobre{
+        padding-top: 10px;
+        padding-bottom: 6vw;
+    }
+    footer #sobre img{
+        width:100%;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 640px){
+    .flex-container{
+        display:flex;
+    }
+    header{
+        display:flex;
+        justify-content:space-around;
+        background-color: rgb(0, 0, 0);
+    }
+    nav{
+        position: absolute;
+        margin-top: 21vh;
+        width: 100vw;
+        background-color: rgb(54, 54, 54);
+    }
+            
+     nav ul{
+        list-style: none;
+    }
+    nav ul li{
+        padding: 1vh 0 1vh 0;
+        border-bottom: 1px solid black;
+    }
+            
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 4vh;
+        margin-left: 3vw;
+    }
+    
+    header #logo{
+        width:8vw;
+    }
+    header #logo img{
+        width:100%;
+    }
+    
+    header #ident{
+        width:50vw;
+    }
+    header #ident h1{
+        font-size: 2vh;
+        text-align:left;
+        padding-top:3vh;
+        font-size: 4vh;
+        color: rgb(255, 255, 255);
+        font-family: Arial;
+      
+    }
+    header #icon-menu{
+        width:10vw;
+    }
+    header #icon-menu img{
+        width:100%;
+    }
+    body{
+        background-color: rgb(54, 54, 54);
+    }
+    main {   
+        color:#ffffff;
+        text-align:center;
+        font-family: Arial;
+        padding-top: 10vh;
+        font-size: 20px;
+    }
+    
+    #box {
+        width: 20vw;
+        height: 50vh;
+    }
+    #box img{
+        width: 100%;
+        border-radius: 10%;
+    }
+    #filmes{
+        padding-left: 2vh;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #filmes div{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    
+    }
+    main h3{
+        text-align: left;
+        margin-left: 3vh;
+        padding-top: 30vw;
+    }
+    #promo{
+        padding-left: 2vh;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex-container{
+        display:flex;
+    }
+    #promo div{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    footer{
+        display:flex;
+        justify-content:space-around;
+        background-color: black;
+    }
+    footer #sobre{
+        padding-top: 10px;
+        padding-bottom: 10vw;
+    }
+    footer #sobre img{
+        width:100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
